@@ -1,0 +1,127 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background: #edeff0;
+  font-family: 'Varela Round', sans-serif;
+  color: #333;
+  margin: 20px;
+}
+.nav {
+  border-bottom: 2px solid #ccc;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0 2px 2px -2px #ccc;
+}
+.nav h3{
+  font-size: 1.2em;
+  float: left;
+}
+.nav img{
+  float: right;
+}
+.nav:after{
+  clear: both;
+  display: table;
+  content: "";
+}
+
+#nav-circle{
+  padding-right: 20px;
+  border-right: 2px solid #ccc;
+}
+#nav-arrow{
+  padding-right: 20px;
+  padding-left: 20px;
+  border-right: 2px solid #ccc;
+}
+#nav-bell{
+  padding-left: 20px;
+}
+
+/*COARSE (SOFT) STYLES*/
+.course{
+  margin: 50px;
+  float: left;
+  width: 570px;
+  border-radius: 7px;
+  box-shadow: 0 3px 3px -1px #ccc;
+}
+.course-head{
+  padding-top: 15px;
+  padding-bottom: 0;
+  color: white;
+  border-radius: 7px 7px 0 0;
+  background: #259775;
+  height: 65px;
+}
+.course-head img{
+  padding-left: 25px;
+
+}
+.course-head .time{
+  float: right;
+  padding-top: 7px;
+  padding-right: 25px;
+}
+.course-body{
+  background: #fff;
+  border-radius: 0 0 7px 7px;
+  height: 300px;
+  padding: 20px;
+}
+.course-body h4 {
+  padding-bottom: 5px;
+  font-size: 20px;
+  margin-top: 2px;
+  margin-bottom: 45px;
+}
+
+.tag {
+  color: #888;
+}
+
+button {
+  border-radius: 32px;
+  border: 2px solid #eee;
+  background: transparent;
+  color: #ccc;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 8px 12px 12px 12px;
+  margin-top: 50px;
+}
+.lang-butt{
+  color: #259775;
+}
+.clang-butt{
+  color: #888;
+  margin-left: 5px;
+}
+.butt-play{
+  padding: 8px 9px 10px 12px;
+  margin-right: 10px;
+  margin-left: 200px;
+}
+.python {
+  background-color: #f291b0;
+}
+
+.butt-python {
+  color: #f291b0;
+}
+
+.wrdprs {
+  background-color: #828ac9;
+}
+
+.prs-butt {
+  color: #828ac9;
+}
+
+.foot {
+  border-top: 2px solid #ccc;
+  box-shadow: 0 2px 2px -2px #ccc;
+}
